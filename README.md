@@ -13,9 +13,7 @@ npm install react-native-camerax
 ```js
 import Camerax from "react-native-camerax";
 
-// ...
-
-const result = await Camerax.multiply(3, 7);
+// coming soon
 ```
 
 ## Contributing
