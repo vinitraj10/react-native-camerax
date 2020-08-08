@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import { CameraX, CameraXView } from 'react-native-camerax';
+import { CameraX, CameraXView, GreenView } from 'react-native-camerax';
 
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
@@ -23,6 +23,7 @@ export default function App() {
         resizeMode="contain"
         borderRadius={40}
       />
+      <GreenView style={{ height: 50, width: 50 }} />
     </View>
   );
 }

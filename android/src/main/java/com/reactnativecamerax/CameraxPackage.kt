@@ -13,7 +13,8 @@ class CameraxPackage : ReactPackage {
 
     override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
 	    return listOf(
-			    CameraxView(reactContext)
+			    CameraxView(reactContext),
+			    GreenView(reactContext)
 	    )
     }
 }

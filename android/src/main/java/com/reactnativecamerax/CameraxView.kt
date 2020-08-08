@@ -11,8 +11,6 @@ import com.facebook.react.uimanager.ViewProps
 import com.facebook.react.uimanager.annotations.ReactProp
 import com.facebook.react.views.image.ImageResizeMode
 import com.facebook.react.views.image.ReactImageView
-import com.facebook.react.views.view.ReactViewGroup
-
 class CameraxView(reactContext: ReactApplicationContext) : SimpleViewManager<ReactImageView>() {
 	var mCallerContext: ReactApplicationContext? = reactContext
 	override fun getName(): String {
