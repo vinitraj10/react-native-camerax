@@ -1,4 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.reactnativecamerax">
+    package="com.reactnativecamerax">
+
+    <application>
+        <activity
+            android:name=".CameraxActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_camerax"
+            android:theme="@style/FullscreenTheme"></activity>
+    </application>
 
 </manifest>

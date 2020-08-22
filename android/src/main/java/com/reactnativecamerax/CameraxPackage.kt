@@ -7,14 +7,13 @@ import com.facebook.react.uimanager.ViewManager
 
 
 class CameraxPackage : ReactPackage {
-    override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
-        return listOf<NativeModule>(CameraxModule(reactContext))
-    }
+	override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
+		return listOf<NativeModule>(CameraxModule(reactContext))
+	}
 
-    override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
-	    return listOf(
-			    CameraxView(reactContext),
-			    GreenView(reactContext)
-	    )
-    }
+	override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
+		return listOf(
+				CameraxManager(reactContext)
+		)
+	}
 }

@@ -1,4 +1,4 @@
-import { requireNativeComponent } from 'react-native';
+import { requireNativeComponent, View } from 'react-native';
 
 /**
  * Composes `View`.
@@ -9,4 +9,4 @@ import { requireNativeComponent } from 'react-native';
  */
 const CameraXView = requireNativeComponent('RCTCameraXView');
 // console.log('CameraXvIEW', CameraXView);
-export default CameraXView;
+export default CameraXView as typeof View;
