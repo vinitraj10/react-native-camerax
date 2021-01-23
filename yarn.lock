@@ -7613,11 +7613,6 @@ plugin-error@^0.1.2:
     arr-union "^2.0.1"
     extend-shallow "^1.1.2"
 
-pod-install@^0.1.0:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/pod-install/-/pod-install-0.1.9.tgz#c78c4e597072a014297d9185b820339ab3154768"
-  integrity sha512-NBbJfeVjtGw/1ro6QJYv2aN5XuHTCzLDNlD4EWXMcG9d4hOIB7L1Ie3+ScDmZpENih9SyHO98S8h7Ismk4vxUg==
-
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
